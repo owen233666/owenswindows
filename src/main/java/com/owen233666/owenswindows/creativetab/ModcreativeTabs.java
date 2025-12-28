@@ -44,6 +44,12 @@ public class ModcreativeTabs {
                 output.accept(ModItems.BAMBOO_WINDOW.get());
                 output.accept(ModItems.STRIPPED_BAMBOO_WINDOW.get());
                 output.accept(ModItems.BAMBOO_PLANK_WINDOW.get());
+                output.accept(ModItems.CRIMSON_WINDOW.get());
+                output.accept(ModItems.STRIPPED_CRIMSON_WINDOW.get());
+                output.accept(ModItems.CRIMSON_PLANK_WINDOW.get());
+                output.accept(ModItems.WARPED_WINDOW.get());
+                output.accept(ModItems.STRIPPED_WARPED_WINDOW.get());
+                output.accept(ModItems.WARPED_PLANK_WINDOW.get());
             }).build());
 
 }

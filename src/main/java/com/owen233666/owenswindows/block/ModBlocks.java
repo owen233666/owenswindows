@@ -43,5 +43,11 @@ public class ModBlocks {
     public static final DeferredHolder<Block, ConnectableWindowBlock> BAMBOO_WINDOW             =       registerWindow("bamboo_window");
     public static final DeferredHolder<Block, ConnectableWindowBlock> STRIPPED_BAMBOO_WINDOW    =       registerWindow("stripped_bamboo_window");
     public static final DeferredHolder<Block, ConnectableWindowBlock> BAMBOO_PLANK_WINDOW       =       registerWindow("bamboo_plank_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> CRIMSON_WINDOW            =       registerWindow("crimson_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> STRIPPED_CRIMSON_WINDOW   =       registerWindow("stripped_crimson_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> CRIMSON_PLANK_WINDOW      =       registerWindow("cimson_plank_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> WARPED_WINDOW             =       registerWindow("warped_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> STRIPPED_WARPED_WINDOW    =       registerWindow("stripped_warped_window");
+    public static final DeferredHolder<Block, ConnectableWindowBlock> WARPED_PLANK_WINDOW       =       registerWindow("warped_plank_window");
 
 }

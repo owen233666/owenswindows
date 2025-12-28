@@ -43,6 +43,12 @@ public class ModItems {
     public static final DeferredHolder<Item, BlockItem> BAMBOO_WINDOW               =   ITEMS.register("bamboo_window",             () -> new BlockItem(ModBlocks.BAMBOO_WINDOW.get(),              new Item.Properties()));
     public static final DeferredHolder<Item, BlockItem> STRIPPED_BAMBOO_WINDOW      =   ITEMS.register("stripped_bamboo_window",    () -> new BlockItem(ModBlocks.STRIPPED_BAMBOO_WINDOW.get(),     new Item.Properties()));
     public static final DeferredHolder<Item, BlockItem> BAMBOO_PLANK_WINDOW         =   ITEMS.register("bamboo_plank_window",       () -> new BlockItem(ModBlocks.BAMBOO_PLANK_WINDOW.get(),        new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> CRIMSON_WINDOW              =   ITEMS.register("crimson_window",            () -> new BlockItem(ModBlocks.CRIMSON_WINDOW.get(),             new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> STRIPPED_CRIMSON_WINDOW     =   ITEMS.register("stripped_crimson_window",   () -> new BlockItem(ModBlocks.STRIPPED_CRIMSON_WINDOW.get(),    new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> CRIMSON_PLANK_WINDOW        =   ITEMS.register("crimson_plank_window",      () -> new BlockItem(ModBlocks.CRIMSON_PLANK_WINDOW.get(),       new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> WARPED_WINDOW               =   ITEMS.register("warped_window",             () -> new BlockItem(ModBlocks.WARPED_WINDOW.get(),              new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> STRIPPED_WARPED_WINDOW      =   ITEMS.register("stripped_warped_window",    () -> new BlockItem(ModBlocks.STRIPPED_WARPED_WINDOW.get(),     new Item.Properties()));
+    public static final DeferredHolder<Item, BlockItem> WARPED_PLANK_WINDOW         =   ITEMS.register("warped_plank_window",       () -> new BlockItem(ModBlocks.WARPED_PLANK_WINDOW.get(),        new Item.Properties()));
 
 
 }

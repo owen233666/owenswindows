@@ -1,0 +1,573 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_glass_noframe"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_top"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topl"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topr"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_bot"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botl"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botr"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_right"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topr"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botr"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_left"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topl"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botl"
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "north",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_top",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topl",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topr",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_bot",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botl",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botr",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_right",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topr",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botr",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_left",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_topl",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_botl",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "false",
+        "facing": "east",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_top"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "west": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_bot"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "west": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_top",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "east": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_bot",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "north": "true",
+        "east": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_top",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "east": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_bot",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "east": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_top",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "west": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_right_bot",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "right",
+        "south": "true",
+        "west": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_top"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "west": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_bot"
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "west": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_top",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "east": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_bot",
+        "y": 90
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "north": "true",
+        "east": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_top",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "east": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_bot",
+        "y": 180
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "east": "true",
+        "below": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_top",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "west": "true",
+        "above": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_dark_oak/stripped_dark_oak_frame_corner_rounded_bot",
+        "y": 270
+      },
+      "when": {
+        "is_corner": "true",
+        "corner_type": "rounded",
+        "south": "true",
+        "west": "true",
+        "below": "false"
+      }
+    }
+  ]
+}

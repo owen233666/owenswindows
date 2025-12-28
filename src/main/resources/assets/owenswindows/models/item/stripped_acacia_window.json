@@ -1,0 +1,8 @@
+{
+  "parent": "owenswindows:item/parent/window",
+  "textures": {
+    "0": "minecraft:block/stripped_acacia_log",
+    "2": "owenswindows:block/glass_noframe",
+    "particle": "minecraft:block/stripped_acacia_log"
+  }
+}

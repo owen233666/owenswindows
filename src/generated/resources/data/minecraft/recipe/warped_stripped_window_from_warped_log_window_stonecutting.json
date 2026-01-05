@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "owenswindows:warped_window"
+  },
+  "result": {
+    "count": 1,
+    "id": "owenswindows:stripped_warped_window"
+  }
+}

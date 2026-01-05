@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_cherry_window": {
+      "conditions": {
+        "items": [
+          {
+            "items": "owenswindows:stripped_cherry_window"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cherry_log_window_from_cherry_stripped_window_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_cherry_window"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cherry_log_window_from_cherry_stripped_window_stonecutting"
+    ]
+  }
+}

@@ -17,5 +17,20 @@
   "block.owenswindows.acacia_plank_window": "金合欢木木板窗户",
   "block.owenswindows.dark_oak_window": "深色橡木窗户",
   "block.owenswindows.stripped_dark_oak_window": "去皮深色橡木窗户",
-  "block.owenswindows.dark_oak_plank_window": "深色橡木木板窗户"
+  "block.owenswindows.mangrove_window": "红木窗户",
+  "block.owenswindows.stripped_mangrove_window": "去皮红木窗户",
+  "block.owenswindows.mangrove_plank_window": "红木木板窗户",
+  "block.owenswindows.dark_oak_plank_window": "深色橡木木板窗户",
+  "block.owenswindows.cherry_window": "樱花窗户",
+  "block.owenswindows.stripped_cherry_window": "去皮樱花窗户",
+  "block.owenswindows.cherry_plank_window": "樱花木板窗户",
+  "block.owenswindows.bamboo_window": "竹窗户",
+  "block.owenswindows.stripped_bamboo_window": "去皮竹窗户",
+  "block.owenswindows.bamboo_plank_window": "竹板窗户",
+  "block.owenswindows.crimson_window": "绯红窗户",
+  "block.owenswindows.stripped_crimson_window": "去皮绯红窗户",
+  "block.owenswindows.crimson_plank_window": "绯红木板窗户",
+  "block.owenswindows.warped_window": "诡异窗户",
+  "block.owenswindows.stripped_warped_window": "去皮诡异窗户",
+  "block.owenswindows.warped_plank_window": "诡异木板窗户"
 }

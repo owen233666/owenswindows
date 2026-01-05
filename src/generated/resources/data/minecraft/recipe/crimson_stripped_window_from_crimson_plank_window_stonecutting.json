@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "owenswindows:crimson_plank_window"
+  },
+  "result": {
+    "count": 1,
+    "id": "owenswindows:stripped_crimson_window"
+  }
+}

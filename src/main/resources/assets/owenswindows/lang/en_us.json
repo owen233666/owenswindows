@@ -17,5 +17,20 @@
   "block.owenswindows.acacia_plank_window": "acacia plank window",
   "block.owenswindows.dark_oak_window": "dark oak window",
   "block.owenswindows.stripped_dark_oak_window": "stripped dark oak window",
-  "block.owenswindows.dark_oak_plank_window": "dark oak plank window"
+  "block.owenswindows.mangrove_window": "mangrove window",
+  "block.owenswindows.stripped_mangrove_window": "stripped mangrove window",
+  "block.owenswindows.mangrove_plank_window": "mangrove planks window",
+  "block.owenswindows.dark_oak_plank_window": "dark oak plank window",
+  "block.owenswindows.cherry_window": "cherry window",
+  "block.owenswindows.stripped_cherry_window": "stripped cherry window",
+  "block.owenswindows.cherry_plank_window": "cherry planks window",
+  "block.owenswindows.bamboo_window": "bamboo window",
+  "block.owenswindows.stripped_bamboo_window": "stripped bamboo window",
+  "block.owenswindows.bamboo_plank_window": "bamboo planks window",
+  "block.owenswindows.crimson_window": "crimson window",
+  "block.owenswindows.stripped_crimson_window": "stripped crimson window",
+  "block.owenswindows.crimson_plank_window": "crimson planks window",
+  "block.owenswindows.warped_window": "warped window",
+  "block.owenswindows.stripped_warped_window": "stripped warper window",
+  "block.owenswindows.warped_plank_window": "warped planks window"
 }

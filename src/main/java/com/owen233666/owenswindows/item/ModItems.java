@@ -50,5 +50,4 @@ public class ModItems {
     public static final DeferredHolder<Item, BlockItem> STRIPPED_WARPED_WINDOW      =   ITEMS.register("stripped_warped_window",    () -> new BlockItem(ModBlocks.STRIPPED_WARPED_WINDOW.get(),     new Item.Properties()));
     public static final DeferredHolder<Item, BlockItem> WARPED_PLANK_WINDOW         =   ITEMS.register("warped_plank_window",       () -> new BlockItem(ModBlocks.WARPED_PLANK_WINDOW.get(),        new Item.Properties()));
 
-
 }

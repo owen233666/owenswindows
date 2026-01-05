@@ -11,7 +11,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_top"
+        "model": "owenswindows:block/resizable/warped/warped_frame_top"
       },
       "when": {
         "is_corner": "false",
@@ -21,7 +21,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topl"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topl"
       },
       "when": {
         "is_corner": "false",
@@ -31,7 +31,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topr"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topr"
       },
       "when": {
         "is_corner": "false",
@@ -41,7 +41,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_bot"
+        "model": "owenswindows:block/resizable/warped/warped_frame_bot"
       },
       "when": {
         "is_corner": "false",
@@ -51,7 +51,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botl"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botl"
       },
       "when": {
         "is_corner": "false",
@@ -61,7 +61,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botr"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botr"
       },
       "when": {
         "is_corner": "false",
@@ -71,7 +71,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_right"
+        "model": "owenswindows:block/resizable/warped/warped_frame_right"
       },
       "when": {
         "is_corner": "false",
@@ -81,7 +81,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topr"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topr"
       },
       "when": {
         "is_corner": "false",
@@ -91,7 +91,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botr"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botr"
       },
       "when": {
         "is_corner": "false",
@@ -101,7 +101,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_left"
+        "model": "owenswindows:block/resizable/warped/warped_frame_left"
       },
       "when": {
         "is_corner": "false",
@@ -111,7 +111,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topl"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topl"
       },
       "when": {
         "is_corner": "false",
@@ -121,7 +121,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botl"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botl"
       },
       "when": {
         "is_corner": "false",
@@ -141,7 +141,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_top",
         "y": 90
       },
       "when": {
@@ -152,7 +152,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topl",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topl",
         "y": 90
       },
       "when": {
@@ -163,7 +163,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topr",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topr",
         "y": 90
       },
       "when": {
@@ -174,7 +174,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_bot",
         "y": 90
       },
       "when": {
@@ -185,7 +185,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botl",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botl",
         "y": 90
       },
       "when": {
@@ -196,7 +196,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botr",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botr",
         "y": 90
       },
       "when": {
@@ -207,7 +207,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_right",
+        "model": "owenswindows:block/resizable/warped/warped_frame_right",
         "y": 90
       },
       "when": {
@@ -218,7 +218,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topr",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topr",
         "y": 90
       },
       "when": {
@@ -229,7 +229,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botr",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botr",
         "y": 90
       },
       "when": {
@@ -240,7 +240,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_left",
+        "model": "owenswindows:block/resizable/warped/warped_frame_left",
         "y": 90
       },
       "when": {
@@ -251,7 +251,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_topl",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_topl",
         "y": 90
       },
       "when": {
@@ -262,7 +262,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_botl",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_botl",
         "y": 90
       },
       "when": {
@@ -284,7 +284,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_top"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_top"
       },
       "when": {
         "is_corner": "true",
@@ -296,7 +296,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_bot"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_bot"
       },
       "when": {
         "is_corner": "true",
@@ -320,7 +320,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_top",
         "y": 90
       },
       "when": {
@@ -333,7 +333,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_bot",
         "y": 90
       },
       "when": {
@@ -358,7 +358,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_top",
         "y": 180
       },
       "when": {
@@ -371,7 +371,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_bot",
         "y": 180
       },
       "when": {
@@ -396,7 +396,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_top",
         "y": 270
       },
       "when": {
@@ -409,7 +409,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_right_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_right_bot",
         "y": 270
       },
       "when": {
@@ -433,7 +433,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_top"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_top"
       },
       "when": {
         "is_corner": "true",
@@ -445,7 +445,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_bot"
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_bot"
       },
       "when": {
         "is_corner": "true",
@@ -469,7 +469,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_top",
         "y": 90
       },
       "when": {
@@ -482,7 +482,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_bot",
         "y": 90
       },
       "when": {
@@ -507,7 +507,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_top",
         "y": 180
       },
       "when": {
@@ -520,7 +520,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_bot",
         "y": 180
       },
       "when": {
@@ -545,7 +545,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_top",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_top",
         "y": 270
       },
       "when": {
@@ -558,7 +558,7 @@
     },
     {
       "apply": {
-        "model": "owenswindows:block/resizable/crimson_plank/crimson_plank_frame_corner_rounded_bot",
+        "model": "owenswindows:block/resizable/warped/warped_frame_corner_rounded_bot",
         "y": 270
       },
       "when": {

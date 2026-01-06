@@ -1,49 +1,24 @@
 package com.owen233666.owenswindows;
 
-import com.mojang.logging.LogUtils;
-import com.owen233666.owenswindows.block.ModBlocks;
-import com.owen233666.owenswindows.creativetab.ModcreativeTabs;
-import com.owen233666.owenswindows.item.ModItems;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.fabricmc.api.ModInitializer;
+
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(owen233666swindows.MODID)
-public class owen233666swindows {
-    public static final String MODID = "owenswindows";
-    public static final Logger LOGGER = LogUtils.getLogger();
+public class Owen233666sWindows implements ModInitializer {
+	public static final String MOD_ID = "owenswindows";
 
-    public owen233666swindows(IEventBus modEventBus, ModContainer modContainer) {
-        modEventBus.addListener(this::commonSetup);
+	// This logger is used to write text to the console and the log file.
+	// It is considered best practice to use your mod id as the logger's name.
+	// That way, it's clear which mod wrote info, warnings, and errors.
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModcreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+	@Override
+	public void onInitialize() {
+		// This code runs as soon as Minecraft is in a mod-load-ready state.
+		// However, some things (like resources) may still be uninitialized.
+		// Proceed with mild caution.
 
-        NeoForge.EVENT_BUS.register(this);
-
-
-//        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-    }
-
-    private void commonSetup(FMLCommonSetupEvent event) {
-//        // Some common setup code
-//        LOGGER.info("HELLO FROM COMMON SETUP");
-//
-//        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
-//            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-//        }
-
-    }
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-//        LOGGER.info("HELLO from server starting");
-    }
+		LOGGER.info("Hello Fabric world!");
+	}
 }

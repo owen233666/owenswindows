@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "owen233666s-windows",
+	"version": "${version}",
+	"name": "owen233666's windows",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/owen233666s-windows/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.owen233666.owenswindows.Owen233666sWindows"
+		],
+		"client": [
+			"com.owen233666.owenswindows.Owen233666sWindowsClient"
+		],
+		"fabric-datagen": [
+			"com.owen233666.owenswindows.Owen233666sWindowsDataGenerator"
+		]
+	},
+	"mixins": [
+		"owen233666s-windows.mixins.json",
+		{
+			"config": "owen233666s-windows.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

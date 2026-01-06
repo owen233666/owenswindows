@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "owenswindows:bamboo_plank_window"
+  },
+  "result": "owenswindows:bamboo_window"
+}

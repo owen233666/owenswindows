@@ -1,5 +1,8 @@
 package com.owen233666.owenswindows;
 
+import com.owen233666.owenswindows.block.ModBlocks;
+import com.owen233666.owenswindows.creativetab.ModCreativetab;
+import com.owen233666.owenswindows.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +22,8 @@ public class Owen233666sWindows implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+		ModCreativetab.registerItemGroup();
 	}
 }

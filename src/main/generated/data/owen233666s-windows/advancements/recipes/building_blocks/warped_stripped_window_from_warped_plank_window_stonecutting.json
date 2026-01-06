@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:warped_stripped_window_from_warped_plank_window_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_plank_window": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "owenswindows:warped_plank_window"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_plank_window",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:warped_stripped_window_from_warped_plank_window_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

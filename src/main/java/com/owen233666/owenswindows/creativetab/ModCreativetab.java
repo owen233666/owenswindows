@@ -1,11 +1,9 @@
 package com.owen233666.owenswindows.creativetab;
 
-import com.owen233666.owenswindows.Owen233666sWindows;
-import com.owen233666.owenswindows.block.ModBlocks;
+import com.owen233666.owenswindows.owen233666swindows;
 import com.owen233666.owenswindows.item.ModItems;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,10 +14,10 @@ import static net.minecraft.world.item.CreativeModeTab.Row.TOP;
 public class ModCreativetab {
     public static final CreativeModeTab ITEM_GROUP = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
-            new ResourceLocation(Owen233666sWindows.MOD_ID, "itemtab"),
+            new ResourceLocation(owen233666swindows.MOD_ID, "itemtab"),
             CreativeModeTab.builder(TOP, 0).title(Component.translatable("creativetab.items"))
                     .icon(() -> {
-                        return new ItemStack(BuiltInRegistries.BLOCK.get(new ResourceLocation(Owen233666sWindows.MOD_ID, "hot_cocoa")));
+                        return new ItemStack(BuiltInRegistries.BLOCK.get(new ResourceLocation(owen233666swindows.MOD_ID, "hot_cocoa")));
                     })
                     .displayItems((displayContext, output) -> {
                         output.accept(ModItems.OAK_WINDOW);

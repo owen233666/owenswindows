@@ -1,6 +1,6 @@
 package com.owen233666.owenswindows.block;
 
-import com.owen233666.owenswindows.Owen233666sWindows;
+import com.owen233666.owenswindows.owen233666swindows;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -47,7 +47,7 @@ public class ModBlocks {
 
 
     public static Block registerBlock(String name, Block block){
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(Owen233666sWindows.MOD_ID, name), block);
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(owen233666swindows.MOD_ID, name), block);
     }
 
     public static void registerModBlocks(){

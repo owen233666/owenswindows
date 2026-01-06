@@ -5,7 +5,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.renderer.RenderType;
 
-public class Owen233666sWindowsClient implements ClientModInitializer {
+public class owen233666swindowsClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		// 将所有窗口方块设置为半透明渲染

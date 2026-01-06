@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.owen233666.owenswindows.Owen233666sWindows"
+			"com.owen233666.owenswindows.owen233666swindows"
 		],
 		"client": [
-			"com.owen233666.owenswindows.Owen233666sWindowsClient"
+			"com.owen233666.owenswindows.owen233666swindowsClient"
 		],
 		"fabric-datagen": [
-			"com.owen233666.owenswindows.Owen233666sWindowsDataGenerator"
+			"com.owen233666.owenswindows.owen233666swindowsDataGenerator"
 		]
 	},
 	"mixins": [

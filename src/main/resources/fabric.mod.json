@@ -3,9 +3,9 @@
 	"id": "owens-windows",
 	"version": "${version}",
 	"name": "owen233666's windows",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "More Windows Available Now!",
 	"authors": [
-		"Me!"
+		"owen233666"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -33,7 +33,7 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
+		"fabricloader": ">=0.17.1",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"

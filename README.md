@@ -17,7 +17,12 @@ PPP<br>PWP<br>PPP
 
 *  1.20.1Fabric - 理论上兼容任何光影 | Theoretically support any shaders
 *  1.21.1Neoforge - 由于Fabric Renderer API的问题，暂时会出现渲染问题(原版和部分光影)，另一部分光影表现正常 | Due to issues with the Fabric Renderer API, there may be temporary rendering issues (with the vanilla and some shaders), while other shaders function normally
-* 
+
+## 🖼️展示 | Showcase
+![picture1](./assets/2026-01-15_22.22.09.png)
+![picture2](./assets/2026-01-15_22.30.13.png)
+![picture2](./assets/2026-01-15_22.30.31.png)
+
 ## 🙏 特别鸣谢 | Special Thanks
 暂空
 

@@ -1,10 +1,8 @@
 package com.owen233666.owenswindows.datagen;
 
-import com.owen233666.owenswindows.block.ConnectableWindowBlock;
 import com.owen233666.owenswindows.block.ModBlocks;
 import com.owen233666.owenswindows.owen233666swindows;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.BlockModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

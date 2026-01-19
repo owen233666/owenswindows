@@ -1,0 +1,7 @@
+{
+  "parent": "owenswindows:block/parent/window/window_frame_corner_rounded_top",
+  "textures": {
+    "0": "minecraft:block/stripped_birch_log",
+    "particle": "minecraft:block/stripped_birch_log"
+  }
+}

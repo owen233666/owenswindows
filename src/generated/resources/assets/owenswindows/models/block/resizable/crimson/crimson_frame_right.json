@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_right",
-  "textures": {
-    "0": "minecraft:block/crimson_stem",
-    "particle": "minecraft:block/crimson_stem"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_left",
-  "textures": {
-    "0": "minecraft:block/oak_log",
-    "particle": "minecraft:block/oak_log"
-  }
-}

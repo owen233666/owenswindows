@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_corner_right_bot",
-  "textures": {
-    "2": "minecraft:block/cherry_log",
-    "particle": "minecraft:block/cherry_log"
-  }
-}

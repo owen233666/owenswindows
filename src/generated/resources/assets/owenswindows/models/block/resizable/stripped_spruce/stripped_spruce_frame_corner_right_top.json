@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_corner_right_top",
-  "textures": {
-    "2": "minecraft:block/stripped_spruce_log",
-    "particle": "minecraft:block/stripped_spruce_log"
-  }
-}

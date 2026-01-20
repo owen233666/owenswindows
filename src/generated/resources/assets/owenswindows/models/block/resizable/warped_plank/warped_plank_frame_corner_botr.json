@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_corner_botr",
-  "textures": {
-    "0": "minecraft:block/warped_planks",
-    "particle": "minecraft:block/warped_planks"
-  }
-}

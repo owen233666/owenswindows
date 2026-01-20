@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_corner_rounded_top",
-  "textures": {
-    "0": "minecraft:block/mangrove_log",
-    "particle": "minecraft:block/mangrove_log"
-  }
-}

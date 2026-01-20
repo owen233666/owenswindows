@@ -1,7 +1,0 @@
-{
-  "parent": "owenswindows:block/parent/window/window_frame_left",
-  "textures": {
-    "0": "minecraft:block/bamboo_block",
-    "particle": "minecraft:block/bamboo_block"
-  }
-}

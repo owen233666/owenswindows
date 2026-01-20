@@ -15,7 +15,7 @@ public class ModCreativetab {
     public static final CreativeModeTab ITEM_GROUP = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
             new ResourceLocation(owen233666swindows.MOD_ID, "itemtab"),
-            CreativeModeTab.builder(TOP, 0).title(Component.translatable("creativetab.items"))
+            CreativeModeTab.builder(TOP, 0).title(Component.translatable("creativetab.owenswindows.items"))
                     .icon(() -> {
                         return new ItemStack(BuiltInRegistries.BLOCK.get(new ResourceLocation(owen233666swindows.MOD_ID, "hot_cocoa")));
                     })

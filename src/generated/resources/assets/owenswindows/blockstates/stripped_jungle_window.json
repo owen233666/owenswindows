@@ -1,0 +1,573 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_glass_noframe"
+      },
+      "when": {
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_top"
+      },
+      "when": {
+        "above": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topl"
+      },
+      "when": {
+        "above": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topr"
+      },
+      "when": {
+        "above": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_bot"
+      },
+      "when": {
+        "below": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botl"
+      },
+      "when": {
+        "below": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botr"
+      },
+      "when": {
+        "below": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_right"
+      },
+      "when": {
+        "east": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topr"
+      },
+      "when": {
+        "east": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botr"
+      },
+      "when": {
+        "east": "false",
+        "facing": "north",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_left"
+      },
+      "when": {
+        "facing": "north",
+        "is_corner": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topl"
+      },
+      "when": {
+        "facing": "north",
+        "is_corner": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botl"
+      },
+      "when": {
+        "facing": "north",
+        "is_corner": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_top",
+        "y": 90
+      },
+      "when": {
+        "above": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topl",
+        "y": 90
+      },
+      "when": {
+        "above": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topr",
+        "y": 90
+      },
+      "when": {
+        "above": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_bot",
+        "y": 90
+      },
+      "when": {
+        "below": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botl",
+        "y": 90
+      },
+      "when": {
+        "below": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botr",
+        "y": 90
+      },
+      "when": {
+        "below": "false",
+        "facing": "east",
+        "is_corner": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_right",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topr",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botr",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_left",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_topl",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_botl",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "is_corner": "false",
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe"
+      },
+      "when": {
+        "corner_type": "right",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_top"
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "right",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_bot"
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "right",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_top",
+        "y": 90
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_bot",
+        "y": 90
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 180
+      },
+      "when": {
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_top",
+        "y": 180
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_bot",
+        "y": 180
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "right",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_right_glass_noframe",
+        "y": 270
+      },
+      "when": {
+        "corner_type": "right",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_top",
+        "y": 270
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "right",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_right_bot",
+        "y": 270
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "right",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe"
+      },
+      "when": {
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_top"
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_bot"
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 90
+      },
+      "when": {
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_top",
+        "y": 90
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_bot",
+        "y": 90
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 180
+      },
+      "when": {
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_top",
+        "y": 180
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_bot",
+        "y": 180
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "rounded",
+        "east": "true",
+        "is_corner": "true",
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/window_frame_corner_rounded_glass_noframe",
+        "y": 270
+      },
+      "when": {
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_top",
+        "y": 270
+      },
+      "when": {
+        "above": "false",
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "owenswindows:block/resizable/stripped_jungle/stripped_jungle_frame_corner_rounded_bot",
+        "y": 270
+      },
+      "when": {
+        "below": "false",
+        "corner_type": "rounded",
+        "is_corner": "true",
+        "south": "true",
+        "west": "true"
+      }
+    }
+  ]
+}

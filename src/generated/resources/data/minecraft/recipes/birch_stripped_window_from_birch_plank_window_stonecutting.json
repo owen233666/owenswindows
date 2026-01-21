@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "owenswindows:birch_plank_window"
+  },
+  "result": "owenswindows:stripped_birch_window"
+}

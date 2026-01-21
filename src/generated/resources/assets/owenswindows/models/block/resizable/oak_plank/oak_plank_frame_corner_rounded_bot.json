@@ -1,0 +1,7 @@
+{
+  "parent": "owenswindows:block/parent/window/window_frame_corner_rounded_bot",
+  "textures": {
+    "0": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks"
+  }
+}

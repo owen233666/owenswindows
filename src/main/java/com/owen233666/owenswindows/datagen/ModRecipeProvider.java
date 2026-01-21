@@ -8,18 +8,19 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
-import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    public ModRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries);
+    public ModRecipeProvider(PackOutput output) {
+        super(output);
     }
 
     @Override
-    protected void buildRecipes(RecipeOutput recipeOutput) {
+    protected void buildRecipes(Consumer<FinishedRecipe> recipeOutput) {
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.OAK_WINDOW.get(), 8)
                 .pattern("AAA")
@@ -370,7 +371,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             List<Ingredient> ingredients,
             List<ItemLike> results,
             String woodType,
-            RecipeOutput recipeOutput) {
+            Consumer<FinishedRecipe> recipeOutput) {
 
         String[] suffixes = {"log", "stripped", "plank"};
 

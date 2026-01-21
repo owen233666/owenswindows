@@ -6,9 +6,10 @@ import com.owen233666.owenswindows.owen233666swindows;
 import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
-import net.neoforged.neoforge.client.model.generators.MultiPartBlockStateBuilder;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.MultiPartBlockStateBuilder;
+import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ModBlockStatesProvider extends BlockStateProvider {
 
@@ -53,7 +54,7 @@ public class ModBlockStatesProvider extends BlockStateProvider {
         registerWindowBlockStates(ModBlocks.WARPED_PLANK_WINDOW.get(),      "warped_plank");
     }
 
-    private void registerWindowBlockStates(ConnectableWindowBlock windowBlock, String woodType){
+    private void registerWindowBlockStates(Block windowBlock, String woodType){
         MultiPartBlockStateBuilder builder = getMultipartBuilder(windowBlock);
 
         // --- 非角落方块，朝北 ---

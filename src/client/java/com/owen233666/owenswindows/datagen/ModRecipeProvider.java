@@ -3,8 +3,9 @@ package com.owen233666.owenswindows.datagen;
 import com.owen233666.owenswindows.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.SingleItemRecipeBuilder;
 import net.minecraft.world.item.ItemStack;
@@ -13,15 +14,15 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 
 import java.util.List;
-import java.util.function.Consumer;
+import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output) {
-        super(output);
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+        super(output, registriesFuture);
     }
 
     @Override
-    public void buildRecipes(Consumer<FinishedRecipe> recipeOutput) {
+    public void buildRecipes(RecipeOutput recipeOutput) {
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.OAK_WINDOW, 8)
                 .pattern("AAA")
                 .pattern("ABA")
@@ -368,7 +369,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             List<Ingredient> ingredients,
             List<ItemLike> results,
             String woodType,
-            Consumer<FinishedRecipe> recipeOutput) {
+            RecipeOutput recipeOutput) {
 
         String[] suffixes = {"log", "stripped", "plank"};
 
@@ -406,9 +407,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     private static String getAItemName(ItemLike item) {
         if (item == null) return "unknown";
-        return item.asItem().getDescriptionId()
-                .replace("block.owenswindows.", "")
-                .replace(".", "_")
-                .toLowerCase();
+
+        // 获取物品的注册名（resource location）
+        var registryName = item.asItem().builtInRegistryHolder().key().location();
+
+        // 如果是模组的物品，只取路径部分
+        if ("owenswindows".equals(registryName.getNamespace())) {
+            return registryName.getPath();
+        }
+
+        // 如果是原版物品，返回完整名称
+        return registryName.toString().replace(":", "_");
     }
 }

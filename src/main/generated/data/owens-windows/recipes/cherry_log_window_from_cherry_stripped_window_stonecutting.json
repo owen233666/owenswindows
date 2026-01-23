@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "owenswindows:stripped_cherry_window"
-  },
-  "result": "owenswindows:cherry_window"
-}

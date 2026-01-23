@@ -47,7 +47,7 @@ public class ModBlocks {
 
 
     public static Block registerBlock(String name, Block block){
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(owen233666swindows.MOD_ID, name), block);
+        return Registry.register(BuiltInRegistries.BLOCK, ResourceLocation.fromNamespaceAndPath(owen233666swindows.MOD_ID, name), block);
     }
 
     public static void registerModBlocks(){

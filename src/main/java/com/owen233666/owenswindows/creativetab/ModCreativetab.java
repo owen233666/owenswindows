@@ -14,10 +14,10 @@ import static net.minecraft.world.item.CreativeModeTab.Row.TOP;
 public class ModCreativetab {
     public static final CreativeModeTab ITEM_GROUP = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
-            new ResourceLocation(owen233666swindows.MOD_ID, "itemtab"),
+            ResourceLocation.fromNamespaceAndPath(owen233666swindows.MOD_ID, "itemtab"),
             CreativeModeTab.builder(TOP, 0).title(Component.translatable("creativetab.owenswindows.items"))
                     .icon(() -> {
-                        return new ItemStack(BuiltInRegistries.BLOCK.get(new ResourceLocation(owen233666swindows.MOD_ID, "hot_cocoa")));
+                        return new ItemStack(BuiltInRegistries.BLOCK.get(ResourceLocation.fromNamespaceAndPath(owen233666swindows.MOD_ID, "hot_cocoa")));
                     })
                     .displayItems((displayContext, output) -> {
                         output.accept(ModItems.OAK_WINDOW);

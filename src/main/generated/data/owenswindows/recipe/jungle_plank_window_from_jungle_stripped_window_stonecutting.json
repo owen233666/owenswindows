@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "owenswindows:stripped_jungle_window"
+  },
+  "result": {
+    "count": 1,
+    "id": "owenswindows:jungle_plank_window"
+  }
+}

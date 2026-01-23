@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "owenswindows:stripped_acacia_window"
-  },
-  "result": "owenswindows:acacia_plank_window"
-}

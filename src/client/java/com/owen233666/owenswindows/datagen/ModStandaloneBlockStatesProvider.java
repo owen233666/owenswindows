@@ -182,7 +182,7 @@ public class ModStandaloneBlockStatesProvider implements DataProvider {
 
         // 保存文件到正确路径
         String fileName = woodType + "_window.json";
-        ResourceLocation location = new ResourceLocation("owenswindows", fileName);
+        ResourceLocation location = ResourceLocation.fromNamespaceAndPath("owenswindows", fileName);
         return DataProvider.saveStable(cachedOutput, root,
                 this.packOutput.getOutputFolder(PackOutput.Target.RESOURCE_PACK)
                         .resolve("owenswindows/blockstates/" + fileName));

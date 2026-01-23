@@ -2,7 +2,6 @@ package com.owen233666.owenswindows.item;
 
 import com.owen233666.owenswindows.owen233666swindows;
 import com.owen233666.owenswindows.block.ModBlocks;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -47,7 +46,7 @@ public class ModItems {
     public static final Item WARPED_PLANK_WINDOW        =   registerBlockItem("warped_plank_window",        ModBlocks.WARPED_PLANK_WINDOW);
 
     public static Item registerBlockItem(String name, Block block) {
-        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(owen233666swindows.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(BuiltInRegistries.ITEM, ResourceLocation.fromNamespaceAndPath(owen233666swindows.MOD_ID, name), new BlockItem(block, new Item.Properties()));
     }
 
     public static void registerModItems(){

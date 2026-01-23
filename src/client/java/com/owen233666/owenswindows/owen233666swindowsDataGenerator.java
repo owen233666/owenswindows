@@ -14,8 +14,9 @@ public class owen233666swindowsDataGenerator implements DataGeneratorEntrypoint 
 
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
-		pack.addProvider(ModBlockModelProvider::new);
 		pack.addProvider((FabricDataGenerator.Pack.Factory<ModStandaloneBlockStatesProvider>) ModStandaloneBlockStatesProvider::new);
+		pack.addProvider(ModBlockModelProvider::new);
+
 
 	}
 }

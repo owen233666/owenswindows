@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "owenswindows:dark_oak_plank_window"
-  },
-  "result": "owenswindows:dark_oak_window"
-}

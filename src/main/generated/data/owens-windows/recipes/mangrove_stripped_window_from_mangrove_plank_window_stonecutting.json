@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "owenswindows:mangrove_plank_window"
-  },
-  "result": "owenswindows:stripped_mangrove_window"
-}

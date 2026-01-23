@@ -84,7 +84,7 @@ public class ModBlockModelProvider extends FabricModelProvider {
     private static void createTemplate(String parentModelName, TextureSlot slot) {
         // 使用预定义的纹理插槽常量
         ModelTemplate template = new ModelTemplate(
-                Optional.of(new ResourceLocation("owenswindows", "block/parent/window/" + parentModelName)),
+                Optional.of(ResourceLocation.fromNamespaceAndPath("owenswindows", "block/parent/window/" + parentModelName)),
                 Optional.empty(),
                 slot, TEXTURE_SLOT_PARTICLE // 同时包含主要纹理和粒子纹理
         );
@@ -145,7 +145,7 @@ public class ModBlockModelProvider extends FabricModelProvider {
         }
 
         String basePath = "block/resizable/" + woodType + "/" + woodType;
-        ResourceLocation textureLocation = new ResourceLocation(texture);
+        ResourceLocation textureLocation = ResourceLocation.parse(texture);
 
         // 注册所有模型文件
         registerWindowModel(blockModelGenerators, basePath + "_frame_bot", "window_frame_bot", textureLocation);
@@ -173,7 +173,7 @@ public class ModBlockModelProvider extends FabricModelProvider {
 
         // 注册模型
         template.create(
-                new ResourceLocation("owenswindows", modelName),
+                ResourceLocation.fromNamespaceAndPath("owenswindows", modelName),
                 textureMapping,
                 blockModelGenerators.modelOutput
         );
